@@ -22,7 +22,7 @@ const UserSearch = () => {
         className="mb-6"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.9 }}
       >
         <input
           type="text"
@@ -36,7 +36,7 @@ const UserSearch = () => {
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.8 }}
       >
         {users
           .filter((user) => user.name.toLowerCase().includes(search.toLowerCase()))
