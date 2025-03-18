@@ -7,7 +7,8 @@ const HeroSection = () => {
             <video autoPlay loop muted className='absolute w-full h-full object-cover'>
                 <source src={bannerVideo}></source>
             </video>
-
+             
+             {/* banner content */}
             <div className='relative p-10 text-center rounded-lg'>
                 <h1 className='text-4xl font-bold'>Welcome to Our Service</h1>
                 <p className='mt-2 text-lg'>Your success starts here!</p>
