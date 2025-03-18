@@ -3,6 +3,7 @@ import HeroSection from '../components/HeroSection';
 import ServiceCards from '../components/ServiceCards';
 import PricingTable from '../components/PricingTable';
 import UserSearch from '../components/UserSearch';
+import ContactForm from '../components/ContactForm';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <ServiceCards></ServiceCards>
             <PricingTable></PricingTable>
             <UserSearch></UserSearch>
+            <ContactForm></ContactForm>
         </div>
     );
 };
